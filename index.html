@@ -7,46 +7,59 @@
     <title>Libros y Café</title>
     <link rel="icon" type="image/x-icon" href="logoLibreria.jpg">
     <style>
-        header {
-            background-color: #fff;
-            color: #0a0909;
-            padding: 5px;
-            text-align: center;
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url(fondo.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
-        nav {
+
+        header {
+            background-color: #c19770;
+            color: white;
+            padding: 10px;
             text-align: center;
-            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #c19770;
         }
 
         nav a {
+            color: black;
             text-decoration: none;
-            color: #fff;
-            padding: 10px 15px;
-            margin: 0 5px;
-            border-radius: 5px;
-            background-color: #555;
-            transition: background-color 0.3s;
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #d5ba98;
+            color: black;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <img src="logoLibreria.jpg" alt="logoLibreria" id="logo" style="height: 100px;">
+        <div>
+            <img src="logoLibreria.jpg" alt="logoLibreria" id="logo" style="width: 80px;">
+        </div>
         <h1>Libros y Café</h1>
+        <nav>
+            <a href="librosFiccion.html#ficcion">Ciencia Ficción</a>
+            <a href="librosTerror.html">Terror</a>
+            <a href="librosHistoria.html">Historia</a>
+            <a href="#">Contacto</a>
+        </nav>
     </header>
-    <nav>
-        <a href="librosFiccion.html#ficcion">Ciencia Ficción</a>
-        <a href="librosTerror.html">Terror</a>
-        <a href="librosHistoria.html">Historia</a>
-        <a href="#">Contacto</a>
-    </nav>
-    
-    
-   
 
-    </div>
-   
 </body>
 
 </html>
