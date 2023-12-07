@@ -16,19 +16,51 @@
         div:hover {
             box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
         }
+
+        header {
+            background-color: #c19770;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #c19770;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #d5ba98;
+            color: black;
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <div>
+            <a href="index.html"> <img src="logoLibreria.jpg" alt="logoLibreria" id="logo" style="width: 80px;"></a>
+        </div>
+        <h1>Libros y Café</h1>
+        <nav>
+            <a href="librosFiccion.html#ficcion">Ciencia Ficción</a>
+            <a href="librosTerror.html">Terror</a>
+            <a href="librosHistoria.html">Historia</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
 
-   
-    <div style="position:absolute; height: 100px; width: 75px;">
-        <a href="index.html"><img src="logoLibreria.jpg" alt="logoLibreria" style="height: 100px;"></a>
-    </div>
-    <div style=" position:absolute; left: 150px;width: 1350px; top: 0px; height: 100px;">
-                <center><pre><h1><a href="librosFiccion.html#ficcion">Ciencia Ficción</a>       <a href="librosTerror.html">Terror</a>      Drama       Infantil       Historia</h1></pre></center>
-                
-            </div>
     <div style="position: absolute; left: 200px; text-align: center; top: 150px;">
         <img src="imgHistoria/amanecerLepanto.webp" alt="amanecerLepanto">
         <p><b>Rojo amanecer en Lepanto</b></p>
@@ -76,14 +108,14 @@
         <p>Maldita Roma</p>
         <p>21,37€</p>
     </div>
-   
+
     <div style="position: absolute; left: 700px; text-align: center; top: 600px;">
         <img src="imgFiccion/sobreTumans.webp" alt="sobreTumans">
         <p><b>Sobre tumans, mumans y oides</b></p>
         <p>Edgar Prieto Nagel</p>
         <p>19,90€</p>
     </div>
-    
+
     <div style="position: absolute; left: 950px; text-align: center; top: 600px;">
         <img src="imgFiccion/anna.jpg" alt="anna">
         <p><b>Anna: Damas de la evolución</b></p>
