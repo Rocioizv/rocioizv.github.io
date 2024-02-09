@@ -7,10 +7,14 @@ body {
     background-repeat: no-repeat;
 
 }
+.subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 header {
-    background-color: #000000;
-    color: white;
+    font-family: cursive;
+    background-color: #f0eae0;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     display: flex;
@@ -21,7 +25,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #c19770;
+    background-color: #f0eae0;
 }
 
 nav a {
@@ -32,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #d5ba98;
+    background-color: #f5f1ea;
     color: black;
 }
 
@@ -45,14 +49,14 @@ footer {
     width: 100%;
 }
 
-img {
+.imgPortada {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
 }
 
-img:hover {
+.imgPortada:hover {
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
