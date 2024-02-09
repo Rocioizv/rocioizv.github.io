@@ -9,52 +9,7 @@
     <title>Libros y Café</title>
     <link rel="icon" type="image/x-icon" href="logoLibreria.jpg">
     <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-image: url("");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-
-        }
-
-        header {
-            background-color: #c19770;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #c19770;
-        }
-
-        nav a {
-            color: black;
-            text-decoration: none;
-            padding: 14px 16px;
-            text-align: center;
-        }
-
-        nav a:hover {
-            background-color: #d5ba98;
-            color: black;
-        }
-
-        footer {
-            background-color: #c19770;
-            color: #000000;
-            text-align: center;
-            padding: 10px;
-            bottom: 0;
-            width: 100%;
-        }
+        @import url(estiloIndex.css);
     </style>
 </head>
 
@@ -73,11 +28,15 @@
     </header>
 
 
+
     <div style="font-family: 'Trebuchet MS';">
-        <blockquote><i>
+        <blockquote>
+            <i>
+                <img id="imgFondo" src="fondoLibreria.jpeg" alt="fondoLibreria">
                 <h1 style="text-align: center;">"No es analfabeto aquel que no sabe leer,
                     sino aquel que sabiendo leer, no lee"- Miguel de Unamuno </h1>
-            </i></blockquote>
+            </i>
+        </blockquote>
     </div>
     <br>
     <h1 style="text-align: center;">Los libros mejor valorados por el público </h1>
@@ -147,7 +106,7 @@
 
     </div>
 
-    <footer style="position: absolute; top:1700px; height: 180px; width: 1510px;"> 
+    <footer style="position: absolute; top:1700px; height: 180px; width: 1510px;">
         <p> &copy; 2023 Libros y Café. Todos los derechos reservados</p>
         <p><a href="#">Política de privacidad</a> | <a href="contacto.html">Mapa de sitio</a></p>
         <p>Información de contacto: <a href="contacto.html">envíanos un mensaje</a></p>
@@ -158,7 +117,7 @@
             <a href=""><img src="facebook.png" alt="facebook" style="height: 30px; width: 30px;"></a>
         </div>
     </footer>
-    
+
 
 
 </body>
