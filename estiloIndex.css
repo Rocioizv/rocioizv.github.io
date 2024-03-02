@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Italianno&family=PT+Serif+Caption:ital@0;1&display=swap');
 
 *{
     margin: 0;
@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-.subtitulo {
-    font-family: 'Times New Roman', Times, serif;
-}
+body p{
+   font-family: "PT Serif Caption", serif;
 
+}
 header {
     font-family: cursive;
     background-color:#faeee3;
@@ -87,8 +87,19 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
+    font-family:"PT Serif Caption", serif;
+    font-style: italic;
 }
 
+#titFooter{
+ font-family: 'Italianno', cursive;
+}
+footer a{
+    text-decoration: none;
+    color: #222020;
+    opacity: .6;
+    font-weight: 200;
+}
 .socials{
     list-style: none;
     display: flex;
@@ -99,21 +110,21 @@ footer {
 .socials li{
     margin: 0 10px;
 }
-.footer a{
+.socials a{
     text-decoration: none;
     color: #fff;
 }
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     transition: color .4s ease;
 
 }
 .socials a:hover i{
-    color:#b9ddff;
+    color:#000000;
 }
 
 .footer-bottom{
-    background: #7a5c3c;
+    background: #9e7a58;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
