@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Italianno&family=PT+Serif+Caption:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Italianno&family=PT+Serif+Caption:ital@0;1&family=Reem+Kufi:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,9 @@
 
 body p {
     font-family: "PT Serif Caption", serif;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -21,7 +23,7 @@ header {
     align-items: center;
 }
 
-header h1{
+header h1 {
     font-family: 'Italianno', cursive;
     font-size: 50px;
 }
@@ -63,7 +65,24 @@ nav a:hover {
     padding: 20px;
 }
 
+.libreria {
+    text-align: center;
+    margin: auto;
+    background-color: #e5d1be;
+    margin-top: 100px;
+    text-align: center;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.libreria p {
+    font-family: "PT Serif Caption", serif;
+    font-size: 30px;
+}
+
+
 .categorias {
+    background-color: #faeee3;
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
@@ -90,18 +109,21 @@ nav a:hover {
     color: #000000;
 }
 
-
-.valorados {
-    display: grid;
-    grid-template-columns: 40px auto;
+.valorados div {
+    display: flex;
     align-items: center;
+    padding: 30px;
 }
 
-.valorados>h1 {
-    font-family: 'Italianno' cursive;
-
+.valorados img {
+    max-width: 270px;
+    margin-right: 40px;
 }
 
+.valorados h1 {
+    font-family: 'Italianno', cursive;
+
+}
 
 
 
