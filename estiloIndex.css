@@ -153,6 +153,13 @@ nav a:hover {
     background-color: #e5d1be;
 }
 
+#titContacto {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 100px;
+    background-color: #e5d1be;
+}
+
 .libros {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -181,7 +188,7 @@ nav a:hover {
     width: 100%;
     background-color: #faeee3;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 50% 50%;
     padding: 20px;
     gap: 10px;
 
@@ -221,18 +228,18 @@ form {
 form > button {
     width: 100%;
     padding: 10px;
-    outline: none;
     background: #9e7a58;
     color:#fff;
     border:none;
-    transition: .1s;
-    cursor: pointer;
-    font-size: 1rem;
 }
 
 form > button:hover,
 .links > a:hover {
     background: #76593d;
+}
+
+.contacto img {
+    width: 500px;
 }
 
 
