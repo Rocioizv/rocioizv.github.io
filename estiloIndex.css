@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Italianno&family=PT+Serif+Caption:ital@0;1&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body p{
-   font-family: "PT Serif Caption", serif;
+body p {
+    font-family: "PT Serif Caption", serif;
 
 }
+
 header {
-    font-family: cursive;
-    background-color:#faeee3;
+    background-color: #faeee3;
     color: rgb(0, 0, 0);
     padding: 25px 0px;
     text-align: center;
@@ -21,7 +21,14 @@ header {
     align-items: center;
 }
 
+header h1{
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+
+
 nav a {
+    font-family: "PT Serif Caption", serif;
     display: inline-block;
     color: black;
     text-decoration: none;
@@ -35,7 +42,7 @@ nav a:hover {
     color: black;
 }
 
-.encabezadoImg{
+.encabezadoImg {
     background-image: url(CopiafondoLibreria.jpeg);
     background-size: cover;
     height: 400px;
@@ -45,38 +52,57 @@ nav a:hover {
     align-items: center;
 }
 
-.encabezadoImg p{
-    font-size: 40px;   
+.encabezadoImg p {
+    font-size: 40px;
 }
-.encabezadoImg h1{
-    font-family:'Italianno', cursive;
+
+.encabezadoImg h1 {
+    font-family: 'Italianno', cursive;
     text-align: center;
     font-size: 90px;
     padding: 20px;
 }
 
-.categorias{
+.categorias {
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
 }
 
-#titulo{
+#anna {
+    align-items: center;
+}
+
+#titulo {
     font-family: 'Brigada 1918';
     text-align: center;
     font-size: 50px;
     padding: 20px;
 }
 
-.categorias p{
+.categorias p {
     font-family: 'Italianno';
     font-size: 50px;
 }
 
-.categorias a{
+.categorias a {
     text-decoration: none;
     color: #000000;
 }
+
+
+.valorados {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+
+.valorados>h1 {
+    font-family: 'Italianno' cursive;
+
+}
+
+
 
 
 
@@ -87,52 +113,57 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
-    font-family:"PT Serif Caption", serif;
+    font-family: "PT Serif Caption", serif;
     font-style: italic;
 }
 
-#titFooter{
- font-family: 'Italianno', cursive;
+#titFooter {
+    font-family: 'Italianno', cursive;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #222020;
     opacity: .6;
     font-weight: 200;
 }
-.socials{
+
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.socials li{
+
+.socials li {
     margin: 0 10px;
 }
-.socials a{
+
+.socials a {
     text-decoration: none;
     color: #fff;
 }
-.socials a i{
+
+.socials a i {
     font-size: 1.5rem;
     transition: color .4s ease;
 
 }
-.socials a:hover i{
-    color:#000000;
+
+.socials a:hover i {
+    color: #000000;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #9e7a58;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer-bottom p{
+.footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
-
