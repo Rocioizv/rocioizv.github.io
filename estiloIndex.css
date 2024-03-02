@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Italianno&family=PT+Serif+Caption:ital@0;1&family=Reem+Kufi:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
 }
 
 body p {
@@ -13,6 +19,8 @@ body p {
 }
 
 header {
+    width: 100%;
+    height: 100px;
     background-color: #faeee3;
     color: rgb(0, 0, 0);
     padding: 25px 0px;
@@ -20,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header h1 {
@@ -44,9 +53,10 @@ nav a:hover {
 }
 
 .encabezadoImg {
+    width: 100%;
+    height: 400px;
     background-image: url(CopiafondoLibreria.jpeg);
     background-size: cover;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,12 +75,12 @@ nav a:hover {
 }
 
 .libreria {
+    width: 800px;
     text-align: center;
     margin: auto;
     background-color: #e5d1be;
     margin-top: 100px;
     text-align: center;
-    width: 800px;
     border-radius: 30px;
 }
 
@@ -122,51 +132,108 @@ nav a:hover {
 
 }
 
-#titFiccion{
+#titFiccion {
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: 100px;
-    background-color:#e5d1be;
+    background-color: #e5d1be;
 }
 
-#titTerror{
+#titTerror {
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: 100px;
-    background-color:#e5d1be;
+    background-color: #e5d1be;
 }
 
-#titHistoria{
+#titHistoria {
     font-family: "Dancing Script", cursive;
     text-align: center;
     font-size: 100px;
-    background-color:#e5d1be;
+    background-color: #e5d1be;
 }
 
-.libros{
+.libros {
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
     padding: 20px;
-    
+
 }
 
-.libros div{
+.libros div {
     margin-top: 40px;
 }
 
-.libros img{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 150px;
+.libros img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
-.libros p{
+.libros p {
     font-family: "PT Serif Caption", serif;
     font-style: italic;
 }
 
+.contacto {
+    width: 100%;
+    background-color: #faeee3;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 20px;
+    gap: 10px;
+
+}
+
+.info {
+    color: #020202;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+.datos>p {
+    font-size: 1rem;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.input-box {
+    position:relative;
+    width: 100%;
+    height: 30px;
+
+}
+
+form > button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #9e7a58;
+    color:#fff;
+    border:none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form > button:hover,
+.links > a:hover {
+    background: #76593d;
+}
 
 
 footer {
@@ -205,7 +272,7 @@ footer a {
 
 .socials a {
     text-decoration: none;
-    color: #fff;
+    color: #615e5b;
 }
 
 .socials a i {
