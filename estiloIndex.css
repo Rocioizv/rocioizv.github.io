@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .libreria {
-    width: 800px;
+    width: 1000px;
     text-align: center;
     margin: auto;
     background-color: #e5d1be;
@@ -89,7 +89,7 @@ nav a:hover {
 
 .libreria p {
     font-family: "PT Serif Caption", serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
