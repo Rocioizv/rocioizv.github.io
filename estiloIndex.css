@@ -17,6 +17,9 @@ body p {
     justify-content: center;
     align-items: center;
 }
+#logo {
+    width: 80px;
+}
 
 header {
     width: 100%;
